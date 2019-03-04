@@ -28,7 +28,20 @@ MonoBehaviour:
     textureVariables: []
     arrayVariables:
     - useVariable: 1
-      name: Items
+      name: grids
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      type: 3
+      objectTypeName: UnityEngine.GameObject
+      floatValues: []
+      intValues: 
+      boolValues: 
+      stringValues: []
+      vector4Values: []
+      objectReferences: []
+    - useVariable: 1
+      name: tilePrefabs
       tooltip: 
       showInInspector: 0
       networkSync: 0
@@ -40,17 +53,11 @@ MonoBehaviour:
       stringValues: []
       vector4Values: []
       objectReferences:
-      - {fileID: 727293060931791952, guid: a3c6d95a66d6cfe40ba470f237bdc8bc, type: 3}
-      - {fileID: 727293060931791952, guid: a3c6d95a66d6cfe40ba470f237bdc8bc, type: 3}
-      - {fileID: 727293060931791952, guid: a3c6d95a66d6cfe40ba470f237bdc8bc, type: 3}
-      - {fileID: 727293060931791952, guid: a3c6d95a66d6cfe40ba470f237bdc8bc, type: 3}
-      - {fileID: 727293060931791952, guid: a3c6d95a66d6cfe40ba470f237bdc8bc, type: 3}
-      - {fileID: 727293060931791952, guid: a3c6d95a66d6cfe40ba470f237bdc8bc, type: 3}
-      - {fileID: 727293060931791952, guid: a3c6d95a66d6cfe40ba470f237bdc8bc, type: 3}
+      - {fileID: 124426656176491645, guid: 6e26a7e2814e2004688a48d34373f68d, type: 3}
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000
+    variableCategoryIDs: 0000000000000000
   events:
   - sendEvent
   - OnClick
