@@ -84,7 +84,7 @@ MonoBehaviour:
       - fsmEvent:
           name: OnClick
           isSystemEvent: 0
-          isGlobal: 0
+          isGlobal: 1
         toState: OptionsClick
         linkStyle: 0
         linkConstraint: 0
@@ -467,7 +467,7 @@ MonoBehaviour:
       isGlobal: 0
     - name: OnClick
       isSystemEvent: 0
-      isGlobal: 0
+      isGlobal: 1
     - name: RotateTile
       isSystemEvent: 0
       isGlobal: 0
@@ -1336,7 +1336,7 @@ MonoBehaviour:
       isGlobal: 0
     - name: OnClick
       isSystemEvent: 0
-      isGlobal: 0
+      isGlobal: 1
     - name: sendEvent
       isSystemEvent: 0
       isGlobal: 1
