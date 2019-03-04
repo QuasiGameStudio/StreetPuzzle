@@ -26,10 +26,30 @@ MonoBehaviour:
     objectVariables: []
     materialVariables: []
     textureVariables: []
-    arrayVariables: []
+    arrayVariables:
+    - useVariable: 1
+      name: Items
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      type: 3
+      objectTypeName: UnityEngine.GameObject
+      floatValues: []
+      intValues: 
+      boolValues: 
+      stringValues: []
+      vector4Values: []
+      objectReferences:
+      - {fileID: 727293060931791952, guid: a3c6d95a66d6cfe40ba470f237bdc8bc, type: 3}
+      - {fileID: 727293060931791952, guid: a3c6d95a66d6cfe40ba470f237bdc8bc, type: 3}
+      - {fileID: 727293060931791952, guid: a3c6d95a66d6cfe40ba470f237bdc8bc, type: 3}
+      - {fileID: 727293060931791952, guid: a3c6d95a66d6cfe40ba470f237bdc8bc, type: 3}
+      - {fileID: 727293060931791952, guid: a3c6d95a66d6cfe40ba470f237bdc8bc, type: 3}
+      - {fileID: 727293060931791952, guid: a3c6d95a66d6cfe40ba470f237bdc8bc, type: 3}
+      - {fileID: 727293060931791952, guid: a3c6d95a66d6cfe40ba470f237bdc8bc, type: 3}
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 
+    variableCategoryIDs: 00000000
   events:
   - sendEvent
