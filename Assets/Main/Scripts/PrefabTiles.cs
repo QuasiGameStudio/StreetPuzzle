@@ -7,6 +7,7 @@ public class PrefabTiles : MonoBehaviour
     // Start is called before the first frame update
     [SerializeField]
     private GameObject[] tiles;
+    private GameObject[] items;
     
     void Start()
     {
@@ -17,5 +18,13 @@ public class PrefabTiles : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public GameObject GetTile(int index){
+        return tiles[index];
+    }
+
+    public GameObject GetItem(int index){
+        return items[index];
     }
 }
