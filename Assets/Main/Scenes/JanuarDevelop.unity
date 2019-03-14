@@ -1096,7 +1096,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 10
+          value: 16
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
@@ -1345,8 +1345,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 123
-        y: 295
+        x: 130.19531
+        y: 240.46875
         width: 100
         height: 16
       isBreakpoint: 0
@@ -4347,13 +4347,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2005382357}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.25725463, y: -0, z: -0, w: 0.9663437}
+  m_LocalPosition: {x: 14.85, y: 37.41, z: -33.92}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 29.814001, y: 0, z: 0}
 --- !u!1 &2015459472
 GameObject:
   m_ObjectHideFlags: 0
