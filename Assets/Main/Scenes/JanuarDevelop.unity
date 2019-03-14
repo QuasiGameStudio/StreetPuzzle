@@ -1131,7 +1131,7 @@ MonoBehaviour:
         y: 103
         width: 100
         height: 32
-      isBreakpoint: 1
+      isBreakpoint: 0
       isSequence: 1
       hideUnused: 0
       transitions:
@@ -1166,7 +1166,7 @@ MonoBehaviour:
           value: {fileID: 124426656176491645, guid: 6e26a7e2814e2004688a48d34373f68d,
             type: 3}
         - useVariable: 1
-          name: 
+          name: nextGrid
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -1187,7 +1187,7 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams: []
         fsmVarParams:
-        - variableName: 
+        - variableName: nextGrid
           objectType: UnityEngine.GameObject
           useVariable: 1
           type: 3
@@ -2738,7 +2738,7 @@ MonoBehaviour:
         y: 103
         width: 108
         height: 32
-      isBreakpoint: 1
+      isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
       transitions:
